@@ -1,23 +1,23 @@
-# Web Scraping para Recolección de Datos con python 
+# Web Scraping for Data Collection with Python
 
-Este proyecto es una herramienta de web scraping diseñada para recolectar datos de múltiples páginas web de manera automatizada. Utiliza Python junto con bibliotecas como `requests` y `BeautifulSoup` para extraer información específica de sitios web.
+This project is a web scraping tool designed to automatically collect data from multiple web pages. It uses Python along with libraries like `requests` and `BeautifulSoup` to extract specific information from websites.
 
-## Características principales
-- Extracción de datos de múltiples páginas web.
-- Soporte para personalización de selectores CSS según la estructura del sitio web.
-- Guardado de datos en archivos CSV para su posterior análisis.
-- Fácil de usar y ampliable para nuevos sitios web.
+## Key Features
+- Extract data from multiple web pages.
+- Support for customizing CSS selectors based on the website structure.
+- Save data in CSV files for later analysis.
+- Easy to use and extensible for new websites.
 
-## Requisitos
-Para ejecutar este proyecto, necesitas tener instalado lo siguiente:
-- **Python 3.x**: El lenguaje de programación utilizado.
-- **Bibliotecas de Python**: Asegúrate de instalar las bibliotecas necesarias.
+## Requirements
+To run this project, you need the following installed:
+- **Python 3.x**: The programming language used.
+- **Python Libraries**: Make sure you install the necessary libraries.
 
-### Instalación de dependencias
-Instala las bibliotecas requeridas ejecutando el siguiente comando:
+### Installing Dependencies
+Install the required libraries by running the following command:
 - pip install -r requirements.txt
 
-#### El archivo requirements.txt contiene las siguientes bibliotecas:
-- requests: Para realizar solicitudes HTTP y obtener el contenido de las páginas web.
-- beautifulsoup4: Para analizar el contenido HTML y extraer datos.
-- csv: Para guardar los datos recolectados en archivos CSV.
+#### The requirements.txt file contains the following libraries:
+- requests: For making HTTP requests and fetching web page content.
+- beautifulsoup4: For parsing HTML content and extracting data.
+- csv: For saving collected data to CSV files.
